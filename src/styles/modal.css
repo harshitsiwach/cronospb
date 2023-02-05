@@ -1,0 +1,96 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+
+.whole-modal{
+	background-color:#3a3a3a;
+}
+
+.two-wallets{
+	display: flex;
+	justify-content: right;
+	padding-right: 200px;
+}
+
+.wallet-meta{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	background-color: aliceblue;
+	border:2px solid rgb(217, 129, 51);
+	border-radius: 20px;
+	opacity: 0.8;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+.wallet-meta:hover{
+	padding-right: 40px;
+	transition: 0.5s;
+	border:2px solid #000;
+	background-color: rgb(226, 138, 62) ;
+	color: #fff;
+	opacity: 1;
+}
+
+.wallet-defi{
+	background-color: aliceblue;
+	padding: 10px;
+	border:2px solid rgb(68, 72, 194);
+	display: flex;
+	justify-content: center;
+	border-radius: 20px;
+	opacity: 0.8;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+.wallet-defi:hover{
+	padding-right: 40px;
+	transition: 0.5s;
+	border:2px solid #000;
+	background-color: rgb(68, 72, 194);
+	opacity: 1;
+	color: #fff;
+}
+
+
+
+.written{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 40px;
+	margin-bottom: -65px;
+	padding-top: 5px;
+	color: #06d6a0;
+	font-size: 40px;
+	font-weight: 800;
+	transition: 0.5s;
+}
+
+.written:hover{
+	color: rgb(151, 146, 146);
+	text-shadow: 4px 4px 2px rgb(80, 78, 82);
+	letter-spacing: 2px;
+	transition: 1s;
+}
+
+.wall-img{
+	filter: drop-shadow(0px 0px 2px rgb(100, 97, 97));
+}
+
+.CloseButt{
+	display: flex;
+	background: #ef476f;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 32px;
+	transition: 0.5s;
+}
+
+.CloseButt:hover{
+	border-radius: 20px;
+	transform: rotate(360deg);
+	transition: 1s;
+}

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+	font-family: fontu;
+	src: url("./fontu.ttf");
+  }
+
+.newFont{
+	font-family: 'fontu';
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.header{
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+body {
+	background-image: url("backgroundImage3.png");
+}
+
+  
+  ::-webkit-scrollbar {
+	  width: 7px;
+	  background-color: #ef476f;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background-color: #ef476f;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background-color: #ef476f;
+  }
+  
+
+  /*------------------------------------------------
+	  Start Styling
+  -------------------------------------------------*/
+
+
+
+  /*------------------------------------------------
+	  Home Page
+  -------------------------------------------------*/
+  .singleImage{
+	display: inline;
+	justify-content: center;
+	border: 2.5px solid #3a3a3a;
+	height: 120px;
+	border-radius: 10px;
+	filter: drop-shadow(-5px 5px 7px #ef476f);
+	transition: 0.5s;
+  }
+
+  .singleImage:hover{
+	filter: drop-shadow(-5px 5px 7px #06d6a0);
+	border: 2.5px solid #d8d8d8;
+	transition: 1s;
+  }
+
+  .imageBundle{
+	padding: 20px;
+  }
+
+  .imageWcheck{
+	padding: 10px;
+}
+
+.checkit{
+	width: 14px;
+	filter: drop-shadow(2px 2px 2px #000);
+}
+
+.MintButton{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.MintButton:hover{
+	filter: drop-shadow(2px 2px 10px #000);
+}
+
+.faction{
+	padding-top: 20px;
+	filter: drop-shadow(1px 1px 4px #000);
+}
+
+.mintHover{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	transition: 0.5s;
+}
+
+.mintHover:hover{
+	background-color: #d8d8d8;
+	color: #ef476f;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.CWbutton{
+	background: #3a3a3a;
+	padding-right: 3px;
+	margin-bottom: 3px;
+	padding-right: 10px;
+	border-radius: 15px;
+	transition: 0.5s;
+}
+
+.CWbutton:hover{
+	background:#ef476f;
+	border-radius: 0px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.wallButt{
+	background: #d8d8d8;
+	padding-top: 5px;
+	padding-left: 3px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+
+.wallButt:hover{
+	cursor: pointer;
+	background: #ababab;
+	color: #ef476f;
+	border-radius: 0px;
+	transition: 1s;
+}
+
+.desc{
+	padding-top: 100px;
+	color: #ffffff;
+	padding-left: 50px;
+	margin-right: 50px;
+	filter: drop-shadow(2px 2px 1px #ef476f);
+}
+
+
+  
